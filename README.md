@@ -2,4 +2,4 @@
 
 Miriam Ruiz
 
-mxr1780@miami.edu
+mxr1780@miami.e
