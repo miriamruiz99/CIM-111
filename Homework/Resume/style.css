@@ -1,8 +1,32 @@
-h2{
-  background-color:pink;
+html,body{
+  background-color: #F2F2ED;
+font-family: 'Rajdhani', sans-serif;
+line-height:1.5;
 }
-html,body{background-color:
-#F2F2ED;}
+
+
 a {
   color: rosybrown;
+}
+/* mouse over link */
+a:hover {
+  background-color: black;
+  color:yellow;
+}
+  text-decoration: none;
+}
+h1{
+  "centered"
+  font-size:1200px;
+  font-weight:700px;
+  font-family: 'Rajdhani', sans-serif;}
+h2{
+
+}
+
+#loyola,#umtv{
+  text-decoration:none;
+}
+a:visited {
+  color:#ce4760
 }

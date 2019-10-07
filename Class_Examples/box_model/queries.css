@@ -1,0 +1,10 @@
+@media only screen and (max-width: 700px) {
+  /*all the styling is for when the sreen is */
+body{
+  color:black;
+}
+}
+@media only screen and (min-width:600px)
+{
+  /*styles for when the screen is 1200px or wider */
+}
