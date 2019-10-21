@@ -8,3 +8,4 @@ body{
 {
   /*styles for when the screen is 1200px or wider */
 }
+@media only screen and (min-width:600px)  and (max-width:700px)

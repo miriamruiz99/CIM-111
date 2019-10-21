@@ -1,0 +1,69 @@
+/* .header{
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+
+.body{
+  display: grid;
+  grid-template-areas:
+    "restaurant club ."
+     "spa bar . ";
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar_content{
+  display: grid;
+  justify-content:end;
+
+} */
+
+.grid0 {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+    "welcome palmtree"
+    "tagline palmtree";
+    margin-bottom: 30px;
+}
+
+.heading{
+  grid-area: welcome;
+}
+.tagline {
+  grid-area: tagline;
+}
+
+.palmtree  {
+  grid-area: palmtree;
+}
+
+nav.grid1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  grid-template-areas:
+    "good-food entertainment"
+    "health cuban";
+  text-align: center;
+}
+
+.grid1-sub1 {
+  grid-area: good-food;
+}
+
+.grid1-sub2 {
+  grid-area: entertainment;
+}
+
+.grid1-sub3 {
+  grid-area: health;
+}
+
+.grid1-sub4 {
+  grid-area: cuban;
+}
