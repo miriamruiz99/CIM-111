@@ -1,32 +1,50 @@
-html,body{
-  background-color: #F2F2ED;
-font-family: 'Rajdhani', sans-serif;
-line-height:1.5;
+html,
+body {
+  background-color: #f2f2ed;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.5;
 }
 
+#title {
+  font-size: 35px;
+}
+#emial {
+  text-decoration: none;
+}
+
+#centered {
+  font-size: 18px;
+}
 
 a {
   color: rosybrown;
+  text-decoration: none;
 }
 /* mouse over link */
 a:hover {
   background-color: black;
-  color:yellow;
+  color: yellow;
 }
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+}
+h2 {
+}
+
+#loyola,
+#umtv {
   text-decoration: none;
 }
-h1{
-  "centered"
-  font-size:1200px;
-  font-weight:700px;
-  font-family: 'Rajdhani', sans-serif;}
-h2{
-
-}
-
-#loyola,#umtv{
-  text-decoration:none;
-}
 a:visited {
-  color:#ce4760
+  color: #ce4760;
+}
+.club {
+  color: #ce4760;
+}
+.sec {
+  font-size: 30px;
+  font-weight: 700;
 }
