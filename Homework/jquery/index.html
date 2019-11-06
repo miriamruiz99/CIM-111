@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> The Original Mojito </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+  </head>
+
+
+
+  <body>
+    <header class="header">
+        <h1 class="heading">THE BACARDÍ MOJITO</h1>
+        <!-- <p class="tagline">The Original Mojito </p> -->
+        <p class="intro">The Mojito Cocktail has been around in one form or
+another since the 1500s. From famous explorers and Ernest Hemingway, to Bond and
+BACARDÍ, many people have played a part in the drinks long and surprising
+history.</p>
+        <img class="mojito" src="images/first.jpg" alt="mojito" class="mojito">
+        <img class="mojito" src="images/side2.jpg" alt="mojito" class="mojito">
+          <img class="mojito" src="images/side3.jpg" alt="mojito" class="mojito">
+            <img class="mojito" src="images/side4.jpg" alt="mojito" class="mojito">
+            <img class="mojito" src="images/bottle.jpg" alt="mojito" class="mojito">
+    </header>
+
+    <main>
+
+        <section class="need">
+          <h2><a id="a">What you need </a></h2>
+          <img class="need-pic" src="images/ingredients.jpg" alt="ingredients">
+          <ul class="list">
+            <li>Bacardi Superior Rum</li>
+            <li>4 Lime Wedges </li>
+            <li>12 fresh Mint Leaves </li>
+            <li>2 tsp extra fine sugar</li>
+            <li>1 Part Soda Water/ Club Soda</li>
+            <li>Spring of fresh mint</li>
+          </ul>
+
+        </section>
+
+        <section class="steps">
+          <h2><a id="b">Steps </a></h2>
+        <img class="steps-pic" src="images/crush.jpg" alt="crush">
+        <ol class="order">
+          <li>Step 1: Take the lime wedges and squeeze them in the glass.
+          Gently press together the limes & sugar</li>
+          <li>Step 2: Bruise the mint leaves by clapping them between your
+          palms, rub them on the rim of the glass and drop them in. </li>
+          <li>Step 3: Next, half fill the glass with crushed ice, add the
+            BACARDÍ Superiorn rum & stir. </li>
+          <li>Step 4: Top with crushed ice, a sprig of mint and club soda.</li>
+          <li>Mix it all together and enjoy!</li>
+        </ol>
+
+
+        </section>
+
+        <section class="more">
+          <h2><a id="a_"> More Flavors to Try </a></h2>
+          <img src="images/berry.jpg" alt="berry">
+          <img src="images/pine.jpg" alt="">
+
+        </section>
+</main>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                  //all js goes in here
+              $(".heading").css("font-size","40px");
+
+              $ (".heading").mouseover(function() {
+                console.log("Test")
+                $(".heading").html("The Original Mojito");
+              });
+
+              $(".heading").mouseleave(function() {
+                $(".heading").html("THE BACARDÍ MOJITO");
+              });
+
+              $("#a").click(function() {
+                $(".need-pic").toggle(1000);
+                $(".list").toggle(1000);
+              });
+
+              $(".list").click(function() {
+                $(".need-pic").toggle(1000);
+                $(".list").toggle(1000);
+              });
+
+              // $(".toggleBox").toggle(1000);
+        });
+        </script>
+
+    </body>
+</html>
