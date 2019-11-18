@@ -17,17 +17,21 @@ body {
 
   line-height: 1.5;
 }
-.steps {
+.steps h2 {
   text-align: center;
 }
+
 .order {
-  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  list-style: none;
 }
 .need {
   text-align: center;
 }
 .mojito {
   margin: 0 auto;
+  height: 182px;
 }
 .more {
   text-align: center;
