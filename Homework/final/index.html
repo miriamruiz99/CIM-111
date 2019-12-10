@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title #title> A furry friend </title>
+  <meta name="author" content="Miriam Ruiz">
+  <meta name="description" content="Guide to Cocker Spaniels">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+
+
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+
+      <!-- Media query for narrow browser width -->
+      <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css">
+
+      <!-- Media query for full browser width -->
+      <link rel="stylesheet" media="only screen and (min-width: 600px)" href="style.css">
+
+      <!-- Prevent smartphones from scaling pages down -->
+      <meta name="viewport" content="initial-scale=1">
+
+
+
+<body>
+
+
+
+
+  <header class="header">
+      <h1 class="heading">Cocker Spaniels</h1>
+<img class="paw" src="images/paw.png" alt="paw" class="paw">
+      <nav>
+        <a href="#grid1">Adaptability and Friendliness</a>
+        <a href="#grid2">Health Grooming and Trainability</a>
+        <a href="#grid3">Exercise Needs and Styles</a>
+      </nav>
+      <!-- <p class="tagline">A FURRY FRIEND </p> -->
+      <p class="intro">A loving furry friend to add to your family.</p>
+    <a data-fancybox="gallery" href="images/dog1.jpg">
+      <img class="head" src="images/dog1.jpg" alt="spaniel" class="spaniel">
+    </a>
+    <a data-fancybox="gallery" href="images/dog2.jpg">
+      <img class="head" src="images/dog2.jpg" alt="spaniel" class="spaniel">
+    </a>
+    <a data-fancybox="gallery" href="images/dog33.jpg">
+      <img class="head"src="images/dog33.jpg" alt="spaniel" class="spaniel">
+    </a>
+    <a data-fancybox="gallery" href="images/dog4.jpg">
+      <img class="head"src="images/dog4.jpg" alt="spaniel" class="spaniel">
+    </a>
+    <a data-fancybox="gallery" href="images/dog5.jpg">
+      <img class="head"src="images/dog5.jpg" alt="spaniel" class="spaniel">
+    </a>
+
+
+
+  </header>
+
+
+  <main>
+
+    <section id="grid1" class="grid1">
+
+      <section class="adaptability">
+        <h2><a id="a">Adaptability</a></h2>
+        <img class="breed" src="images/breed.jpg" alt="breed">
+      </section>
+
+      <section>
+        <ul class="list">
+          <li>Adapts well to apartment living</li>
+          <li>High sensitivity level </li>
+          <li>Tolerated cold weather well</li>
+          <li>Good for novice woners</li>
+          <li>Does not being alone</li>
+
+        </ul>
+      </section>
+
+      <section class="Friendly">
+        <h2><a id="b">All Around Friendliness </a></h2>
+      <img class="friend" src="images/friendly.jpg" alt="friend">
+      </section>
+
+      <section>
+        <ul class="friendly">
+          <li>Affectionate with Family</li>
+          <li>Incredibly Kid Friendly Dogs </li>
+          <li>Dog Friendly</li>
+          <li>Friendly Toward Strangers</li>
+
+
+        </ul>
+      </section>
+
+    </section>
+
+  <section id="grid2" class="grid2">
+
+      <section class="Health Grooming">
+        <h2><a id="c"> Health Grooming </a></h2>
+        <img src="images/groom.jpg" alt="groom">
+      </section>
+
+      <section>
+        <ul class="Health Grooming ">
+          <li>Low amount of shedding</li>
+          <li>Easy to groom</li>
+          <li>Good health overall</li>
+          <li>Gains weight easily</li>
+          <li>Medium Size </li>
+
+        </ul>
+
+      </section>
+
+    <section class="Trainability">
+      <h2><a id="d"> Trainability</a></h2>
+      <img src="images/train.jpg" alt="train">
+    </section>
+
+    <section>
+
+      <ul class="Trainability ">
+        <li>Easy to train</li>
+        <li>Four star intelligence</li>
+        <li>Medium tendency to bark or houl</li>
+        <li>High wanderlust potential</li>
+
+
+      </ul>
+        </section>
+
+        <section id="grid3" class="grid3">
+
+    <section class="Exercise">
+      <h2><a id="e">Exercise Needs</a></h2>
+      <img src="images/exercise.jpg" alt="exer">
+    </section>
+
+    <section>
+      <ul class="exercise">
+        <li>High energy level</li>
+        <li>Low intensity </li>
+        <li>Constant exercise need</li>
+        <li>High playfulness</li>
+      </ul>
+
+      <section class="Style">
+        <h2><a id="f">Style</a></h2>
+        <img src="images/colors.jpg" alt="style">
+      </section>
+
+      <section>
+        <ul class="style">
+          <li>Coat legnth:long</li>
+          <li>Coat characterisitc:long </li>
+          <li>Constant exercise need</li>
+          <li>Common colors:black,cream,and tan.</li>
+        </ul>
+</section>
+
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+      <script type="text/javascript">
+          $(document).ready(function(){
+                //all js goes in here
+            $(".heading").css("font-size","50px");
+
+            $ (".heading").mouseover(function() {
+              console.log("Test")
+              $(".heading").html("A furry friend");
+            });
+
+            $(".heading").mouseleave(function() {
+              $(".heading").html("Cocker Spaniel");
+            });
+
+            // $("#a").click(function() {
+            //   $(".adaptability").toggle(1000);
+            //   $(".list").toggle(1000);
+            // });
+            //
+            // $(".list").click(function() {
+            //   $(".adaptability").toggle(1000);
+            //   $(".list").toggle(1000);
+            // });
+            //
+            //
+            // $("#e").click(function() {
+            //   $(".friendly").toggle(1000);
+            //   $(".friendly").toggle(1000);
+            // });
+            //
+            // $(".friendly").click(function() {
+            //   $(".friendly").toggle(1000);
+            //   $(".friendly ").toggle(1000);
+            // });
+            // $(".toggleBox").toggle(1000);
+
+          });
+
+      </script>
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153001458-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-153001458-1');
+    </script>
+
+
+  </body>
+</html>
