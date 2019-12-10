@@ -11,6 +11,7 @@
 .intro {
   font-size: 30px;
   text-align: center;
+  color: #e59866;
 }
 
 body {
@@ -94,4 +95,23 @@ nav a:hover {
 }
 .style {
   align-items: right;
+}
+.adaptability {
+  color: #e59866;
+}
+
+#b {
+  color: #e59866;
+}
+#c {
+  color: #e59866;
+}
+#d {
+  color: #e59866;
+}
+#e {
+  color: #e59866;
+}
+#f {
+  color: #e59866;
 }
